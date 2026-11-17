@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="border rounded-xl p-6">
           <h3 className="text-xl font-bold">MyFit — Fitness Tracker</h3>
-          <p className="text-gray-600 mt-1">PWA for tracking workouts, streaks, and progress. Coming soon.</p>
+          <p className="text-gray-600 mt-1">Track workouts, build streaks, and see your progress.</p>
           <p className="text-sm mt-2">Next.js • Firebase • Tailwind</p>
         </div>
 
