@@ -1,69 +1,54 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="max-w-4xl mx-auto px-6 py-16">
+      <h1 className="text-5xl font-bold">Alex Muthiana</h1>
+      <p className="text-xl text-gray-600 mt-2">Senior Frontend & Software Developer</p>
+      <p className="mt-4 text-lg">I build fast, accessible, beautiful web apps with React + TypeScript.</p>
+
+      <div className="flex gap-4 mt-8">
+        <a href="#projects" className="bg-blue-600 text-white px-5 py-2 rounded-lg">View Projects</a>
+        <a href="https://github.com/alexmuthiana820-afk" className="border px-5 py-2 rounded-lg">GitHub</a>
+      </div>
+
+      <h2 id="projects" className="text-3xl font-bold mt-16 mb-6">Projects</h2>
+
+      <div className="grid gap-6">
+        <div className="border rounded-xl p-6">
+          <h3 className="text-xl font-bold">DesignSystemX</h3>
+          <p className="text-gray-600 mt-1">Token-based design system with 45+ reusable React components.</p>
+          <p className="text-sm mt-2">React • TypeScript • Tailwind • Storybook</p>
+          <a href="https://github.com/alexmuthiana820-afk/designsystemx" className="text-blue-600 underline mt-2 inline-block">View on GitHub →</a>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="border rounded-xl p-6">
+          <h3 className="text-xl font-bold">MyFit — Fitness Tracker</h3>
+          <p className="text-gray-600 mt-1">PWA for tracking workouts, streaks, and progress. Coming soon.</p>
+          <p className="text-sm mt-2">Next.js • Firebase • Tailwind</p>
         </div>
-      </main>
-    </div>
-  );
+
+        <div className="border rounded-xl p-6">
+          <h3 className="text-xl font-bold">ShopNest — E-Commerce</h3>
+          <p className="text-gray-600 mt-1">Headless storefront with cart, checkout, and Stripe. Coming soon.</p>
+          <p className="text-sm mt-2">Next.js • Stripe • Sanity</p>
+        </div>
+
+        <div className="border rounded-xl p-6">
+          <h3 className="text-xl font-bold">InsightDash — Analytics Dashboard</h3>
+          <p className="text-gray-600 mt-1">SaaS dashboard with charts, KPIs, and dark mode. Coming soon.</p>
+          <p className="text-sm mt-2">React • Recharts • Tailwind</p>
+        </div>
+
+        <div className="border rounded-xl p-6">
+          <h3 className="text-xl font-bold">A11yAudit — Accessibility Checker</h3>
+          <p className="text-gray-600 mt-1">Browser tool that audits any URL with axe-core. Coming soon.</p>
+          <p className="text-sm mt-2">Vue 3 • axe-core</p>
+        </div>
+      </div>
+
+      <h2 className="text-3xl font-bold mt-16">Contact</h2>
+      <p className="mt-2">Email: muthianaalex@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/alex-muthiana-399935415</p>
+      <p>GitHub: GitHub.com/alexmuthiana820-afk</p>
+    </main>
+  )
 }
