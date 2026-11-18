@@ -17,7 +17,10 @@ export default function Home() {
           <h3 className="text-xl font-bold">DesignSystemX</h3>
           <p className="text-gray-600 mt-1">Token-based design system with 45+ reusable React components.</p>
           <p className="text-sm mt-2">React • TypeScript • Tailwind • Storybook</p>
-          <a href="https://github.com/alexmuthiana820-afk/designsystemx" className="text-blue-600 underline mt-2 inline-block">View on 【entity-GitHub¦canonical_name=GitHub】 →</a>
+          <div className="flex gap-4 mt-2">
+            <a href="https://designsystemx.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
+            <a href="https://github.com/alexmuthiana820-afk/designsystemx" className="text-blue-600 underline">View on 【entity-GitHub¦canonical_name=GitHub】 →</a>
+          </div>
         </div>
 
         <div className="border rounded-xl p-6">
@@ -26,7 +29,7 @@ export default function Home() {
           <p className="text-sm mt-2">Next.js • Tailwind • TypeScript</p>
           <div className="flex gap-4 mt-2">
             <a href="https://myfit-lac.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
-            <a href="https://github.com/alexmuthiana820-afk/myfit" className="text-blue-600 underline">View on GitHub →</a>
+            <a href="https://github.com/alexmuthiana820-afk/myfit" className="text-blue-600 underline">View on 【entity-GitHub¦canonical_name=GitHub】 →</a>
           </div>
         </div>
 
@@ -46,14 +49,18 @@ export default function Home() {
           <p className="text-sm mt-2">React • Next.js • Tailwind</p>
           <div className="flex gap-4 mt-2">
             <a href="https://insightdash-livid.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
-            <a href="https://github.com/alexmuthiana820-afk/insightdash" className="text-blue-600 underline">View on 【entity-GitHub¦canonical_name=GitHub】 →</a>
+            <a href="https://github.com/alexmuthiana820-afk/insightdash" className="text-blue-600 underline">View on GitHub →</a>
           </div>
         </div>
 
         <div className="border rounded-xl p-6">
           <h3 className="text-xl font-bold">A11yAudit — Accessibility Checker</h3>
-          <p className="text-gray-600 mt-1">Browser tool that audits any URL with axe-core. Coming soon.</p>
-          <p className="text-sm mt-2">Vue 3 • axe-core</p>
+          <p className="text-gray-600 mt-1">Paste HTML and get accessibility issues and a score.</p>
+          <p className="text-sm mt-2">Next.js • TypeScript • WCAG 2.1 AA</p>
+          <div className="flex gap-4 mt-2">
+            <a href="https://a11yaudit.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
+            <a href="https://github.com/alexmuthiana820-afk/a11yaudit" className="text-blue-600 underline">View on GitHub →</a>
+          </div>
         </div>
       </div>
 
