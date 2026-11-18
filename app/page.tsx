@@ -7,7 +7,7 @@ export default function Home() {
 
       <div className="flex gap-4 mt-8">
         <a href="#projects" className="bg-blue-600 text-white px-5 py-2 rounded-lg">View Projects</a>
-        <a href="https://github.com/alexmuthiana820-afk" className="border px-5 py-2 rounded-lg"> GitHub</a>
+        <a href="https://github.com/alexmuthiana820-afk" className="border px-5 py-2 rounded-lg"> 【entity-GitHub¦canonical_name=GitHub】</a>
       </div>
 
       <h2 id="projects" className="text-3xl font-bold mt-16 mb-6">Projects</h2>
@@ -17,7 +17,7 @@ export default function Home() {
           <h3 className="text-xl font-bold">DesignSystemX</h3>
           <p className="text-gray-600 mt-1">Token-based design system with 45+ reusable React components.</p>
           <p className="text-sm mt-2">React • TypeScript • Tailwind • Storybook</p>
-          <a href="https://github.com/alexmuthiana820-afk/designsystemx" className="text-blue-600 underline mt-2 inline-block">View on GitHub →</a>
+          <a href="https://github.com/alexmuthiana820-afk/designsystemx" className="text-blue-600 underline mt-2 inline-block">View on 【entity-GitHub¦canonical_name=GitHub】 →</a>
         </div>
 
         <div className="border rounded-xl p-6">
@@ -42,8 +42,12 @@ export default function Home() {
 
         <div className="border rounded-xl p-6">
           <h3 className="text-xl font-bold">InsightDash — Analytics Dashboard</h3>
-          <p className="text-gray-600 mt-1">SaaS dashboard with charts, KPIs, and dark mode. Coming soon.</p>
-          <p className="text-sm mt-2">React • Recharts • Tailwind</p>
+          <p className="text-gray-600 mt-1">SaaS dashboard with charts, KPIs, and dark mode.</p>
+          <p className="text-sm mt-2">React • Next.js • Tailwind</p>
+          <div className="flex gap-4 mt-2">
+            <a href="https://insightdash-livid.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
+            <a href="https://github.com/alexmuthiana820-afk/insightdash" className="text-blue-600 underline">View on 【entity-GitHub¦canonical_name=GitHub】 →</a>
+          </div>
         </div>
 
         <div className="border rounded-xl p-6">
