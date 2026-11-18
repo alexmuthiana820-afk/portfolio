@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-gray-600 mt-1">Token-based design system with 45+ reusable React components.</p>
           <p className="text-sm mt-2">React • TypeScript • Tailwind • Storybook</p>
           <div className="flex gap-4 mt-2">
-            <a href="https://designsystemx.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
+            <a href="https://designsystemx-git-main-alexmuthiana.vercel.app/" className="text-blue-600 underline">Live Demo →</a>
             <a href="https://github.com/alexmuthiana820-afk/designsystemx" className="text-blue-600 underline">View on Git&#72;ub →</a>
           </div>
         </div>
